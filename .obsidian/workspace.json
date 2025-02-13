@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nmap/Commands.md",
+                "file": "Linux Privilege Escalation/Commands.md",
                 "mode": "source",
                 "source": false
               },
@@ -169,11 +169,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27ae8cb78d2173ab",
+  "active": "0bed1b5509ec5d5c",
   "lastOpenFiles": [
-    "Untitled",
-    "Readme.md",
     "Nmap/Commands.md",
+    "Windows Privilege Escalation/Commands.md",
+    "Linux Privilege Escalation/Commands.md",
+    "Windows Privilege Escalation",
+    "Linux Privilege Escalation",
+    "Readme.md",
     "Nmap"
   ]
 }
