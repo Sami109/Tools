@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Privilege Escalation/Commands.md",
+                "file": "Pivoting/Ligolo-ng.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commands"
+              "title": "Ligolo-ng"
             }
           }
         ]
@@ -171,9 +171,13 @@
   },
   "active": "0bed1b5509ec5d5c",
   "lastOpenFiles": [
-    "Linux Privilege Escalation/Commands.md",
+    "File Transfers/Commands.md",
+    "Pivoting/Ligolo-ng.md",
+    "Pivoting",
     "Windows Privilege Escalation/Commands.md",
     "Nmap/Commands.md",
+    "Linux Privilege Escalation/Commands.md",
+    "File Transfers",
     "Windows Privilege Escalation",
     "Linux Privilege Escalation",
     "Readme.md",

@@ -29,6 +29,22 @@ whoami /priv
 
 If you have SEImpersonate, USE JUICYPOTATO!!! NOW!!!
 
+#LIST OF THINGS WORTH CHECKING:
+
+- Username and hostname |  whoami
+
+- Group memberships of the current user | whoami /groups
+
+- Existing users and groups | net user, Get-Localuser, Get-LocalGroup, Get-LocalGroupMember
+
+- Operating system, version and architecture |systeminfo
+
+- Network information | ipconfig /all, route print,netstat -ano
+
+- Installed applications | Get-ItemProperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
+
+- Running processes  | Get-Process
+
 ```
 
 TTY Upgrading
