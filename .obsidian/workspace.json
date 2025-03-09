@@ -11,10 +11,14 @@
             "id": "b3934c84e2416455",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Pivoting/Ligolo-ng.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Ligolo-ng"
             }
           }
         ]
